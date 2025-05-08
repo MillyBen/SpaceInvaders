@@ -2,6 +2,7 @@
 #define PLAYER_HEADER
 #include "Entity.h"
 
+// The player ship
 class Player: public Entity {
 
     public:

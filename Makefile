@@ -6,3 +6,6 @@ SpaceInvaders.o: SpaceInvaders.cpp AppState.h
 
 AppState.o: AppState.cpp AppState.h
 	g++ -c AppState.cpp 
+
+clean:
+	rm *.o SpaceInvaders

@@ -1,6 +1,9 @@
 #ifndef ENTITY_HEADER
 #define ENTITY_HEADER
+// Abstract class to represent entities in the game
 class Entity {
+
+    // Entities are represented as rectangles in the game
     protected:
         int x;
         int y;
