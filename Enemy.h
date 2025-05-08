@@ -1,3 +1,5 @@
+#ifndef ENEMY_HEADER
+#define ENEMY_HEADER
 #include "Entity.h"
 
 class Enemy: public Entity {
@@ -6,7 +8,6 @@ class Enemy: public Entity {
         int points;
 
     public: 
-        Enemy() {
-
-        }
+        Enemy(int aX, int aY, int aWidth, int aHeight);
 };
+#endif
